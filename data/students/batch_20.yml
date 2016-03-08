@@ -67,3 +67,6 @@
 - name: Wouter
   picture: wouter.jpg
   url: https://waata.github.io
+- name: Le Wagon
+  picture: lewagon.png
+  url: http://lewagon.com
