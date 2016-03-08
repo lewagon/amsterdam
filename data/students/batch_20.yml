@@ -3,7 +3,7 @@
   url: http://arontseggai.github.io/portfolio/
 - name: Blane
   picture: blane.jpg
-  url: http://lewagon.com
+  url: https://www.lewagon.com/amsterdam/
 - name: Carolien
   picture: carolien.jpg
   url: http://carolienjonker29.github.io/resume/
@@ -57,7 +57,7 @@
   url: http://royvanarkel.github.io/CV
 - name: Schelte
   picture: schelte.jpg
-  url: http://lewagon.com
+  url: https://www.lewagon.com/amsterdam/
 - name: Tim
   picture: tim.jpg
   url: http://timthuis.github.io/cv_timthuis_2016/
@@ -67,6 +67,6 @@
 - name: Wouter
   picture: wouter.jpg
   url: https://waata.github.io
-- name: Le Wagon
+- name: Le Wagon Batch 20
   picture: lewagon.png
-  url: http://lewagon.com
+  url: https://www.lewagon.com/amsterdam/
