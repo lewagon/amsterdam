@@ -1,4 +1,3 @@
-## Démarrer un nouveau projet.
+# Le Wagon Amsterdam
 
-1. Forkez le repo
-1. Renommez-le puis clonez-le sur votre ordinateur
+http://lewagon.com/amsterdam
