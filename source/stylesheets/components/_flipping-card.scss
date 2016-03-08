@@ -1,0 +1,40 @@
+.flipping-card {
+  position: relative;
+  display: block;
+  color: inherit;
+  &:hover {
+    color: inherit;
+  }
+
+  h2 {
+    margin: 0;
+  }
+}
+
+.flipping-card-back, .flipping-card-front {
+  transition: 0.4s all ease;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flipping-card-back  {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(240,240,240);
+  transform: rotateY(-180deg);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.flipping-card:hover .flipping-card-back {
+  transform: rotateY(0);
+}
+
+.flipping-card:hover .flipping-card-front {
+  transform: rotateY(180deg);
+}
