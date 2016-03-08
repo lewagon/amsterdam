@@ -1,35 +1,35 @@
 - name: Aron
-  picture: aron.jpeg
+  picture: aron.jpg
   url: http://arontseggai.github.io/portfolio/
 - name: Blane
   picture: blane.jpg
   url: http://lewagon.com
 - name: Carolien
-  picture: carolien.JPG
+  picture: carolien.jpg
   url: http://carolienjonker29.github.io/resume/
 - name: Daniel
   picture: daniel.jpg
   url: http://danielgordon1.github.io/CVDanielGordon/
 - name: Eden
-  picture: eden.jpeg
+  picture: eden.jpg
   url: http://edenlab.github.io/Portfolio-no-middleman/
 - name: Emiel
-  picture: emiel.JPG
+  picture: emiel.jpg
   url: http://emielhagen.github.io/boilerplate-portfolio/
 - name: Iris
-  picture: iris.JPG
+  picture: iris.jpg
   url: http://ickramer.github.io/resume/
 - name: Jojanneke
-  picture: Jojanneke.JPG
+  picture: Jojanneke.jpg
   url: http://jojanneketamis.github.io/resume/
 - name: Lars
-  picture: lars.JPG
+  picture: lars.jpg
   url: http://batch20.datene.nl/
 - name: Lena
   picture: lena.jpg
   url: http://lenahartog.github.io/lenahartogportfolio/
 - name: Lennard
-  picture: lennard.JPG
+  picture: lennard.jpg
   url: http://biense.github.io/portfolio/
 - name: Martin
   picture: martin.jpg
@@ -38,7 +38,7 @@
   picture: matthijs.jpg
   url: http://matonias.github.io/matthijs-website
 - name: Melchior
-  picture: melchior.JPG
+  picture: melchior.jpg
   url: http://futuresbssa.github.io/Portfolio/
 - name: Michele
   picture: michele.jpg
@@ -47,22 +47,22 @@
   picture: paula.jpg
   url: http://annepaulinebrouwer.github.io/profile-page/
 - name: Quoc
-  picture: quoc.jpeg
+  picture: quoc.jpg
   url: http://stub4ever.github.io/stubokidemo/
 - name: Rianne
-  picture: rianne.jpeg
+  picture: rianne.jpg
   url: http://riannew.github.io/portfolio_website/
 - name: Roy
-  picture: roy.JPG
+  picture: roy.jpg
   url: http://royvanarkel.github.io/CV
 - name: Schelte
-  picture: schelte.jpeg
+  picture: schelte.jpg
   url: http://lewagon.com
 - name: Tim
-  picture: tim.jpeg
+  picture: tim.jpg
   url: http://timthuis.github.io/cv_timthuis_2016/
 - name: Tom
-  picture: tom.JPG
+  picture: tom.jpg
   url: http://tomstem.github.io/onlineportfolio
 - name: Wouter
   picture: wouter.jpg

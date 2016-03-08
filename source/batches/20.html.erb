@@ -4,11 +4,11 @@ title: BSSA Le Wagon Amsterdam batch 20 <3
 
 <div class="container">
   <div class="row">
-    <% data.students.each do |student| %>
+    <% data.students.batch_20.each do |student| %>
       <div class="col-xs-4 col-sm-3 col-md-2">
         <a href="<%= student.url %>" class="flipping-card">
           <div class="flipping-card-front">
-            <%= image_tag student.picture, class: "img-responsive" %>
+            <%= image_tag "batches/batch-20/#{student.picture}", class: "img-responsive" %>
           </div>
           <div class="flipping-card-back">
             <h2><%= student.name.capitalize %></h2>
