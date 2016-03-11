@@ -28,6 +28,9 @@
 - name: Lena
   picture: lena.jpg
   url: http://lenahartog.github.io/lenahartogportfolio/
+- name: "<3"
+  picture: robot.jpg
+  url: http://lewagon.com
 - name: Lennard
   picture: lennard.jpg
   url: http://biense.github.io/portfolio/
@@ -55,9 +58,6 @@
 - name: Roy
   picture: roy.jpg
   url: http://royvanarkel.github.io/CV
-- name: Schelte
-  picture: schelte.jpg
-  url: https://www.lewagon.com/amsterdam/
 - name: Tim
   picture: tim.jpg
   url: http://timthuis.github.io/cv_timthuis_2016/
