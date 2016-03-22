@@ -10,6 +10,9 @@
 # Auto-prefixing of CSS code with vendor prefix
 activate :autoprefixer
 
+# remove ugly .html on urls
+activate :directory_indexes
+
 ###
 # Page options, layouts, aliases and proxies
 ###
