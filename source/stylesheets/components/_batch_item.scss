@@ -25,7 +25,7 @@
   align-items: center;
 
   &:after {
-    background: linear-gradient(to left, rgba(255, 128, 8, 1) , rgba(255, 200, 55, 1));
+    background: linear-gradient(to left, rgba(44, 62, 80, 1), rgba(44, 62, 80, 1));
     animation: fadeOut 1s ease 2s forwards;
     opacity: 1;
     position: absolute;
@@ -101,6 +101,7 @@
       text-shadow: none;
       background: rgba(255, 255, 255, 0.95);
       box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.05);
+      color: rgba(58, 123, 213, 0.9);
 
       border: 3px solid white;
       padding: 10px 16px;

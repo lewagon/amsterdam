@@ -2,17 +2,17 @@
   <% data.batches.each do |batch| %>
     <div class='batch-item-container'>
       <div class='batch-item'>
-        <div class='batch-item-thumb' style="background-image: linear-gradient(to left, rgba(255, 128, 8, 0.92) , rgba(255, 200, 55, 0.92)), url('<%= image_path(batch.banner_url) %>)">
+        <div class='batch-item-thumb' style="background-image: linear-gradient(to left, rgba(44, 62, 80, 0.92), rgba(44, 62, 80, 0.9)), url('<%= image_path(batch.banner_url) %>)">
           <div class='batch-item-content'>
             <div>
               <div class='batch-item-content-title'>
                 Le<span class='middle-sep'></span>Wagon<span class='middle-sep'></span>Batch <span class='middle-sep'></span><%= batch.id %> <span class='end-sep'>¬</span>
               </div>
               <div class='batch-item-content-tagline'>
-                <span><%= eval("data.students.batch_#{batch.id}").size - 2 %> students</span> learn to <span>code & build</span> applications in Amsterdam during 12 weeks. 🇳🇱✌
+                <span><%= eval("data.students.batch_#{batch.id}").size - 2 %> students</span> learn to <span>code & build</span> applications in Amsterdam during 12 weeks.
               </div>
               <div class='batch-item-content-btn'>
-                <%= link_to 'Check it out', "/batches/#{batch.id}" %>
+                <%= link_to 'Check it out', "batches/#{batch.id}" %>
                 <%= link_to 'About Le Wagon', "http://lewagon.com/amsterdam", target: '_blank', class: 'is-outlined' %>
               </div>
             </div>
