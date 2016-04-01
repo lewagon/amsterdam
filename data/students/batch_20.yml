@@ -1,72 +1,98 @@
 - name: Aron
   picture: aron.jpg
   url: http://arontseggai.github.io/portfolio/
+  id: 1
 - name: Blane
   picture: blane.jpg
+  id: 2
   url: http://blaneamatsardji.github.io/portfolio/
 - name: Carolien
   picture: carolien.jpg
+  id: 3
   url: http://carolienjonker29.github.io/resume/
 - name: Daniel
   picture: daniel.jpg
+  id: 4
   url: http://danielgordon1.github.io/CVDanielGordon/
 - name: Eden
   picture: eden.jpg
+  id: 5
   url: http://edenlab.github.io/Portfolio/
 - name: Emiel
   picture: emiel.jpg
+  id: 6
   url: http://emielhagen.github.io/boilerplate-portfolio/
 - name: Iris
   picture: iris.jpg
+  id: 7
   url: http://ickramer.github.io/resume/
 - name: Jojanneke
   picture: Jojanneke.jpg
+  id: 8
   url: http://jojanneketamis.github.io/resume/
 - name: Lars
   picture: lars.jpg
+  id: 9
   url: http://batch20.datene.nl/
 - name: Lena
   picture: lena.jpg
+  id: 10
   url: http://lenahartog.github.io/lenahartogportfolio/
 - name: "<3"
   picture: robot.jpg
+  fake: true
+  id: 11
   url: http://lewagon.com
 - name: Lennard
   picture: lennard.jpg
+  id: 12
   url: http://biense.github.io/portfolio/
 - name: Martin
   picture: martin.jpg
+  id: 13
   url:  http://www.martinbalk.com
 - name: Matthijs
   picture: matthijs.jpg
+  id: 14
   url: http://matonias.github.io/matthijs-website
 - name: Melchior
   picture: melchior.jpg
+  id: 15
   url: http://futuresbssa.github.io/Portfolio/
 - name: Michele
   picture: michele.jpg
+  id: 16
   url: http://micheledebruyn.github.io/portfolio/
 - name: Paula
   picture: paula.jpg
+  id: 17
   url: http://annepaulinebrouwer.github.io/profile/
 - name: Quoc
   picture: quoc.jpg
+  id: 18
   url: http://stub4ever.github.io/stuboki2/
 - name: Rianne
   picture: rianne.jpg
+  id: 19
   url: http://riannew.github.io/portfolio_website/
 - name: Roy
   picture: roy.jpg
+  id: 20
   url: http://royvanarkel.github.io/CV
 - name: Tim
   picture: tim.jpg
+  id: 21
   url: http://timthuis.github.io/cv_timthuis_2016/
 - name: Tom
   picture: tom.jpg
+  id: 22
   url: http://tomstem.github.io/onlineportfolio
 - name: Wouter
   picture: wouter.jpg
+  id: 23
   url: https://waata.github.io
 - name: Le Wagon Batch 20
   picture: lewagon.png
+  fake: true
+  id: 24
   url: https://www.lewagon.com/amsterdam/

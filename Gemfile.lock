@@ -20,6 +20,7 @@ GEM
       rack-test (>= 0.5.4)
       xpath (~> 2.0)
     chunky_png (1.3.5)
+    coderay (1.1.1)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -54,6 +55,7 @@ GEM
     listen (3.0.5)
       rb-fsevent (>= 0.9.3)
       rb-inotify (>= 0.9)
+    method_source (0.8.2)
     middleman (3.4.1)
       coffee-script (~> 2.2)
       compass (>= 1.0.0, < 2.0.0)
@@ -84,6 +86,9 @@ GEM
       middleman-core (>= 3.2)
       net-sftp
       ptools
+    middleman-pry (1.0.1)
+      middleman (>= 3.3, < 5)
+      pry (~> 0.9)
     middleman-sprockets (3.4.2)
       middleman-core (>= 3.3)
       sprockets (~> 2.12.1)
@@ -106,6 +111,10 @@ GEM
       tilt (~> 1.4.1)
     padrino-support (0.12.5)
       activesupport (>= 3.1)
+    pry (0.10.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.8.1)
+      slop (~> 3.4)
     ptools (1.3.3)
     rack (1.6.4)
     rack-test (0.6.3)
@@ -114,6 +123,7 @@ GEM
     rb-inotify (0.9.5)
       ffi (>= 0.5.0)
     sass (3.4.21)
+    slop (3.6.0)
     sprockets (2.12.4)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -146,6 +156,7 @@ DEPENDENCIES
   middleman (~> 3.4)
   middleman-autoprefixer
   middleman-deploy (~> 1.0)
+  middleman-pry
 
 BUNDLED WITH
    1.11.2

@@ -12,6 +12,7 @@ activate :autoprefixer
 
 # remove ugly .html on urls
 activate :directory_indexes
+activate :pry
 
 ###
 # Page options, layouts, aliases and proxies
