@@ -1,11 +1,17 @@
 
 $(document).ready(function(){
+
+  if(parseParam('student')) {
+    populateModalWithId('#' + parseParam('student'))
+  }
+
   // click on card
   $('.flipping-card').on('click', function() {
     if(!$(this).data('fake')) {
       var href = $(this).data('href');
       var prev = $(this).data('prev');
       var next = $(this).data('next');
+      addParam('student=' + $(this).attr('id'))
       initModal(href, prev, next)
     }
   })
@@ -21,21 +27,22 @@ $(document).ready(function(){
     escapeFromModal();
   })
 
-  // click in modal
-  $('.modal-student').on('click', function(e) {
-    e.stopPropagation()
-  })
+  $('.modal-student, .flipping-card-item').on('click', function(e) { e.stopPropagation() })
 
   // click on arrows
   $('.modal-student-arrow').on('click', function(e) {
     var id = $(this).attr('data-id');
     populateModalWithId(id)
+    addParam('student=' + id.replace('#', ''))
     e.stopPropagation();
   })
 
   function initModal(href, prev, next) {
     $('.modal-student-container').addClass('is-active');
     $('.modal-student-container iframe').attr('src', href);
+    $('.modal-student-url').attr('href', href);
+    $('.modal-student-url span').text(href);
+
     initArrows(prev, next);
   }
 
@@ -63,6 +70,7 @@ $(document).ready(function(){
   function escapeFromModal() {
     $('.modal-student-container').removeClass('is-active');
     $('.modal-student-container iframe').removeAttr('src');
+    clearParams()
   }
 })
 

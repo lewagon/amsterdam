@@ -45,3 +45,28 @@
 .flipping-card:hover .flipping-card-front {
   transform: rotateY(180deg);
 }
+
+.flipping-card-items {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.flipping-card-item {
+  background: rgba(255, 255, 255, 0.15);
+  width: 33px;
+  height: 33px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  color: rgba(255, 255, 255, 0.29);
+  border: 2px solid rgba(255, 255, 255, 0);
+  transition: border-color .2s ease;
+
+  &:hover, &:focus {
+    color: rgba(255, 255, 255, 0.29);
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    text-decoration: none;
+  }
+}
