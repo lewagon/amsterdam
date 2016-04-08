@@ -67,7 +67,10 @@ $(document).ready(function(){
 
   function populateModalWithId(id) {
     var el = $('#' + id);
-    initModal(el.attr('data-href'), el.attr('data-prev'), el.attr('data-next'));
+
+    if ($(el).length && !$(el).data('fake')) {
+      initModal(el.attr('data-href'), el.attr('data-prev'), el.attr('data-next'));
+    }
   }
 
   function escapeFromModal() {
