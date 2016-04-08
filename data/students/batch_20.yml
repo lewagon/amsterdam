@@ -90,9 +90,10 @@
 - name: Wouter
   picture: wouter.jpg
   id: 23
-  url: https://waata.github.io
+  url: http://waata.github.io/portfolio/
 - name: Le Wagon Batch 20
   picture: lewagon.png
   fake: true
+  last: true
   id: 24
   url: https://www.lewagon.com/amsterdam/

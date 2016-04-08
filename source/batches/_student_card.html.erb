@@ -1,25 +1,12 @@
 <div class="col-xs-4 col-sm-3 col-md-2">
-  <div
-    data-href="<%= students[1].url %>"
-    <% if students[2] %>
-      data-next='#<%= students[2].id %>'
-    <% end %>
-    <% if students[0] %>
-      data-prev='#<%= students[0].id %>'
-    <% end %>
-    <% if students[1].fake %>
-      data-fake='true'
-    <% end %>
-    id="<%= "#{students[1].id}" %>"
-    class="flipping-card"
-  >
+  <div <%= student_attributes(students) %> class="flipping-card">
     <div class="flipping-card-front">
       <%= image_tag "batches/batch-20/#{students[1].picture}", class: "img-responsive" %>
     </div>
     <div class="flipping-card-back">
       <div>
         <h2><%= students[1].name %></h2>
-        <% if !students[1].fake %>
+        <% unless students[1].fake %>
           <div class='flipping-card-items'>
             <% link_to students[1].url, class: 'flipping-card-item', target: '_blank' do %>
               <i class='mdi mdi-link-variant'></i>
