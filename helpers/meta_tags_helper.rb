@@ -10,6 +10,9 @@ module MetaTagsHelper
       path = image_path('group-photos/batch-20.jpg')
     end
 
+    # remove the ../ occurrences
+    path.gsub!(/^(\.\.\/)*/, '')
+
     host_url(path)
   end
 
