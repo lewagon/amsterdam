@@ -51,16 +51,32 @@ $(document).ready(function(){
 
   function initArrows(prev, next) {
     if(prev) {
+      var name = $("#" + prev).find('h2').text();
+      $('[data-toggle="tooltip"].is-prev').tooltip('enable')
       $('.modal-student-arrow.is-prev').attr('data-id', prev);
+      $('.modal-student-arrow.is-prev span').css('background', "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('" + $("#" + prev).find('img').attr('src') + "')")
+      $('.modal-student-arrow.is-prev').attr('data-original-title', name)
+      $('.modal-student-arrow.is-prev').attr('title', name)
+      $('.tooltip-inner').text(name)
       $('.modal-student-arrow.is-prev').removeClass('is-disabled');
     } else {
+      $('.tooltip').remove();
+      $('[data-toggle="tooltip"].is-prev').tooltip('disable')
       $('.modal-student-arrow.is-prev').addClass('is-disabled');
     }
 
     if(next) {
+      var name = $("#" + next).find('h2').text();
+      $('[data-toggle="tooltip"].is-next').tooltip('enable')
+      $('.modal-student-arrow.is-next').attr('data-original-title', name)
+      $('.modal-student-arrow.is-next').attr('title', name)
+      $('.tooltip-inner').text(name)
       $('.modal-student-arrow.is-next').attr('data-id', next);
+      $('.modal-student-arrow.is-next span').css('background', "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('" + $("#" + next).find('img').attr('src') + "')")
       $('.modal-student-arrow.is-next').removeClass('is-disabled');
     } else {
+      $('.tooltip').remove();
+      $('[data-toggle="tooltip"].is-next').tooltip('disable')
       $('.modal-student-arrow.is-next').addClass('is-disabled');
     }
   }
@@ -79,3 +95,7 @@ $(document).ready(function(){
     clearParams();
   }
 });
+
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
