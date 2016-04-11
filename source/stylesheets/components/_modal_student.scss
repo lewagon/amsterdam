@@ -68,6 +68,17 @@
   }
 }
 
+.modal-student-arrow:hover {
+  .modal-student-arrow-img {
+    opacity: 1;
+  }
+  color: transparent;
+}
+
+.modal-student-arrow:hover i {
+  display: none;
+}
+
 .modal-student-arrow {
   width: 35px;
   height: 35px;
@@ -75,18 +86,29 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #151515;
-  border: 2px solid black;
+  color: #CCCCCC;
+  border: 2px solid #CCCCCC;
   cursor: pointer;
   margin-top: 10px;
-  opacity: .2;
   font-size: 22px;
+  position: relative;
 
   &.is-disabled {
     cursor: default;
     opacity: .1;
+    color: black;
+    border-color: black;
+
+    span {
+      display: none !important;
+    }
+
+    &:hover i {
+      display: block !important;
+    }
 
     &:hover {
+      border-color: black !important;
       opacity: .1 !important;
     }
   }
@@ -94,7 +116,21 @@
   &:hover {
     color: black;
     text-decoration: none;
-    opacity: .4;
+    border-color: transparent;
+  }
+
+  &-img {
+    opacity: 0;
+    transition: .3s ease opacity;
+    position: absolute;
+    z-index: 9;
+    left: 0;
+    transform: scale(1.1);
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+    top: 0;
+    background-size: cover !important;
   }
 }
 
@@ -152,4 +188,24 @@
     color: black;
     opacity: .4;
   }
+}
+
+.tooltip-inner {
+  padding: 8px 11px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.modal-student-avatar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin: 20px;
+  margin-bottom: 65px;
+  background-size: cover !important;
 }
