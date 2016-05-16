@@ -1,3 +1,12 @@
+- id: 25
+  date: april/june 2016
+  banner_url: group-photos/batch-25.jpg'
+  previous: 20
+  projects: false
+  total: 26
 - id: 20
   date: january/march 2016
   banner_url: group-photos/batch-20.jpg'
+  previous: # nope nope
+  projects: true
+  total: 22
