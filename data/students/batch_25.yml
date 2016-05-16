@@ -1,115 +1,86 @@
 - name: Aafke
   picture: robot.jpg
   url: '#'
-  id: 1
 - name: Abdurrahman
   picture: robot.jpg
   url: '#'
-  id: 2
 - name: Daemien
   picture: robot.jpg
   url: '#'
-  id: 3
 - name: Elio
   picture: robot.jpg
   url: '#'
-  id: 4
 - name: Elyas
   picture: robot.jpg
   url: '#'
-  id: 5
 - name: Feiko
   picture: robot.jpg
   url: '#'
-  id: 6
 - name: Felix
   picture: robot.jpg
   url: '#'
-  id: 7
 - name: Geert
   picture: robot.jpg
   url: '#'
-  id: 8
 - name: Gina
   picture: robot.jpg
   url: '#'
-  id: 9
 - name: "<3"
   picture: robot.jpg
   fake: true
-  id: 10
   url: http://lewagon.com
 - name: Jay
   picture: robot.jpg
   url: '#'
-  id: 11
 - name: Jesse
   picture: robot.jpg
   url: '#'
-  id: 12
 - name: Juriaan
   picture: robot.jpg
   url: '#'
-  id: 13
 - name: Jurjen
   picture: robot.jpg
   url: '#'
-  id: 14
 - name: Lonneke
   picture: robot.jpg
   url: '#'
-  id: 15
 - name: Wintermute
   picture: robot.jpg
   url: '#'
-  id: 16
 - name: Merel
   picture: robot.jpg
   url: '#'
-  id: 17
 - name: Michael
   picture: robot.jpg
   url: '#'
-  id: 18
 - name: Milou
   picture: robot.jpg
   url: '#'
-  id: 19
 - name: Nadya
   picture: robot.jpg
   url: '#'
-  id: 20
 - name: Natalia
   picture: robot.jpg
   url: '#'
-  id: 21
 - name: Ryan
   picture: robot.jpg
   url: '#'
-  id: 22
 - name: Shannon
   picture: robot.jpg
   url: '#'
-  id: 23
 - name: Simone
   picture: robot.jpg
   url: '#'
-  id: 24
 - name: Umer
   picture: robot.jpg
   url: '#'
-  id: 25
 - name: Vallentino
   picture: robot.jpg
   url: '#'
-  id: 26
 - name: Walter
   picture: robot.jpg
   url: '#'
-  id: 27
 - name: Le Wagon Batch 25
   picture: lewagon.png
   fake: true
-  last: true
-  id: 28
   url: https://www.lewagon.com/amsterdam/
