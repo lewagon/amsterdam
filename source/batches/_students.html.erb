@@ -1,5 +1,5 @@
 <div class="container students">
-  <% data.students["batch_#{batch}"].each do |student| %>
-    <%= partial 'batches/student_card', locals: { per_row: per_row, batch: batch, student: student } %>
+  <% students_for_batch(batch).each do |student| %>
+    <%= partial 'batches/student_card', locals: { batch: batch, student: student, per_row: per_row } %>
   <% end %>
 </div>
