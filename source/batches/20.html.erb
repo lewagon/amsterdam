@@ -4,16 +4,4 @@ description: Le Wagon presents the first alumni of our 12-week Amsterdam coding 
 banner_picture: mugshots/batch-20.jpg
 ---
 
-<% students = data.students.batch_20 %>
-
-<div class="container">
-  <div class="row">
-    <%= partial 'batches/student_card', locals: { students: [nil, students.first, students[1]] } %>
-
-    <% students.each_cons(3) do |students| %>
-      <%= partial 'batches/student_card', locals: { students: students } %>
-    <% end %>
-
-    <%= partial 'batches/student_card', locals: { students: [students[-2], students.last, nil] } %>
-  </div>
-</div>
+<%= partial 'batches/students', locals: { batch: 20, per_row: 6 } %>

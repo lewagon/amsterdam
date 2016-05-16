@@ -1,12 +1,15 @@
 module StudentsHelper
-  def student_attributes(students)
-    attributes = []
-    prev_student, current_student, next_student = students
+  def student_attributes(batch, student)
+    attributes    = []
+    students      = data.students["batch_#{batch}"]
+    student_index = students.index(student)
+    prev_student  = students[student_index - 1]
+    next_student  = students[student_index + 1]
 
-    attributes << "id=\"#{current_student.id}\""
-    attributes << "data-href=\"#{current_student.url}\""
+    attributes << "id=\"#{student.id}\""
+    attributes << "data-href=\"#{student.url}\""
 
-    if current_student.fake
+    if student.fake
       attributes <<  "data-fake=\"true\""
     end
 
