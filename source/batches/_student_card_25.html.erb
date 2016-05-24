@@ -1,0 +1,20 @@
+<div <%= student_attributes(batch, student) %> class="flipping-card crazy-card per-row-<%= per_row %>">
+  <div class="crazy-card-front">
+    <%= image_tag "batches/batch-#{batch}/#{student.picture}", class: "img-responsive" %>
+  </div>
+  <div class="crazy-card-back">
+    <div>
+
+    </div>
+  </div>
+  <div class="crazy-card-link">
+    <div>
+      <h2><%= student.name %></h2>
+      <% unless student.fake %>
+      <% link_to student.url, class: 'flipping-card-item crazy-card-item', target: '_blank' do %>
+      <i class='mdi mdi-link-variant'></i>
+      <% end %>
+      <% end %>
+    </div>
+  </div>
+</div>
