@@ -1,29 +1,37 @@
 module StudentsHelper
-  def student_attributes(students)
-    attributes = []
-    prev_student, current_student, next_student = students
+  def student_attributes(batch, student)
+    students      = students_for_batch(batch)
+    student_index = students.index(student)
+    attributes    = [
+      "id=\"#{student_index + 1}\" data-href=\"#{student.url}\"",
+      student_fake_attribute(student),
+      student_sibling_attributes(:prev, students, student_index),
+      student_sibling_attributes(:next, students, student_index)
+    ]
 
-    attributes << "id=\"#{current_student.id}\""
-    attributes << "data-href=\"#{current_student.url}\""
+    attributes.compact.join(' ')
+  end
 
-    if current_student.fake
-      attributes <<  "data-fake=\"true\""
-    end
+  def students_for_batch(batch)
+    data.students["batch_#{batch}"]
+  end
 
-    if prev_student
-      prev_student_id = prev_student.id
-      prev_student_id -= 1 if prev_student.fake
+  private
 
-      attributes << "data-prev=\"#{prev_student_id}\""
-    end
+  def student_fake_attribute(student)
+    return unless student.fake
+    "data-fake=\"true\""
+  end
 
-    if next_student && !next_student.last
-      next_student_id = next_student.id
-      next_student_id += 1 if next_student.fake
+  def student_sibling_attributes(side, students, student_index)
+    step            = (side == :prev ? -1 : 1)
+    sibling_student = students[student_index + step]
+    return if [nil, students.last].include?(sibling_student)
 
-      attributes << "data-next=\"#{next_student_id}\""
-    end
+    student_id         = student_index + 1
+    sibling_student_id = student_id + step
+    sibling_student_id += step if sibling_student.fake
 
-    attributes.join(' ')
+    "data-#{side}=\"#{sibling_student_id}\""
   end
 end
