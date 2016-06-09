@@ -1,86 +1,86 @@
 - name: Aafke
-  picture: robot.jpg
-  url: '#'
+  picture: aafke.jpg
+  url: 'http://aafke89.github.io/portfolio/'
 - name: Abdurrahman
-  picture: robot.jpg
-  url: '#'
+  picture: abdurrahman.jpg
+  url: 'http://auymaz.github.io/Portfolio/'
 - name: Daemien
-  picture: robot.jpg
-  url: '#'
+  picture: daemien.jpg
+  url: 'http://dimmaaah.github.io/portfolio/'
 - name: Elio
   picture: robot.jpg
-  url: '#'
+  url: 'http://eliobecool.github.io//portfolio/'
 - name: Elyas
-  picture: robot.jpg
-  url: '#'
+  picture: elyas.jpg
+  url: 'http://elyas03.github.io/portfolio/'
 - name: Feiko
-  picture: robot.jpg
-  url: '#'
+  picture: feiko.jpg
+  url: 'http://feiko1.github.io/portfolio/'
 - name: Felix
-  picture: robot.jpg
-  url: '#'
+  picture: felix.jpg
+  url: 'http://flehodey.github.io/portfolio/'
 - name: Geert
-  picture: robot.jpg
-  url: '#'
+  picture: geert.jpg
+  url: 'http://geertkeularts.github.io/portfolio/'
 - name: Gina
-  picture: robot.jpg
-  url: '#'
+  picture: gina.jpg
+  url: 'http://ginagoldberg.github.io/Portfolio/'
 - name: "<3"
   picture: robot.jpg
   fake: true
   url: http://lewagon.com
 - name: Jay
-  picture: robot.jpg
-  url: '#'
+  picture: jay.jpg
+  url: 'http://www.jayvanderyoon.com/'
 - name: Jesse
-  picture: robot.jpg
-  url: '#'
+  picture: jesse.jpg
+  url: 'http://jramon1.github.io/portfolio/'
 - name: Juriaan
-  picture: robot.jpg
-  url: '#'
+  picture: juriaan.jpg
+  url: 'http://jurthetauren.github.io/portfolio/'
 - name: Jurjen
-  picture: robot.jpg
-  url: '#'
+  picture: jurjen.jpg
+  url: 'http://jurjenjm.github.io/portfolio/'
 - name: Lonneke
-  picture: robot.jpg
+  picture: lonneke.jpg
   url: '#'
 - name: Matthijs
-  picture: robot.jpg
-  url: '#'
+  picture: matthijs.jpg
+  url: 'http://nova-wintermute.github.io/portfolio/'
 - name: Merel
-  picture: robot.jpg
-  url: '#'
+  picture: merel.jpg
+  url: 'http://merelsteenbrink.github.io/portofolio/'
 - name: Michael
-  picture: robot.jpg
-  url: '#'
+  picture: michael.jpg
+  url: 'http://micky0806.github.io/portfolio/'
 - name: Milou
-  picture: robot.jpg
-  url: '#'
+  picture: milou.jpg
+  url: 'http://milou121.github.io/portfolio/'
 - name: Nadya
   picture: robot.jpg
   url: '#'
 - name: Natalia
-  picture: robot.jpg
+  picture: natalia.jpg
   url: '#'
 - name: Ryan
-  picture: robot.jpg
-  url: '#'
+  picture: ryan.jpg
+  url: 'http://lrjbrual.github.io/portfolio-rj/'
 - name: Shannon
-  picture: robot.jpg
-  url: '#'
+  picture: shannon.jpg
+  url: 'http://www.lewagon.com/lisbon/'
 - name: Simone
   picture: robot.jpg
-  url: '#'
+  url: 'http://simonedebest.github.io/portfolio/'
 - name: Umer
-  picture: robot.jpg
-  url: '#'
+  picture: umer.jpg
+  url: 'http://umersaqib160.github.io/portfolio/'
 - name: Vallentino
-  picture: robot.jpg
-  url: '#'
+  picture: vallentino.jpg
+  url: 'http://vallentino.github.io/profile/'
 - name: Walter
-  picture: robot.jpg
-  url: '#'
+  picture: walter.jpg
+  url: 'http://waltervanwoudenberg.github.io/portfolio/'
 - name: Le Wagon Batch 25
-  picture: lewagon.png
+  picture: lewagon.jpg
   fake: true
   url: https://www.lewagon.com/amsterdam/
