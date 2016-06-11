@@ -1,0 +1,53 @@
+.crazy-card {
+  overflow: hidden;
+  min-height: 100px;
+}
+
+.crazy-card-back {
+  background-color: lighten(#D23333, 10%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.crazy-card-back h2 {
+  word-break: break-all;
+}
+
+.crazy-card-front {
+  transition: transform 300ms ease-in, opacity 300ms ease-in;
+}
+
+.crazy-card:hover .crazy-card-front {
+  transform: rotate(15deg) scale(1.4);
+  opacity: 0;
+}
+
+.crazy-card-link{
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 300ms;
+}
+
+.crazy-card:hover .crazy-card-link{
+  opacity: 1;
+}
+
+.crazy-card-item{
+  margin: 20px auto 0 auto;
+}
