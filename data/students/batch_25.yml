@@ -13,9 +13,9 @@
 - name: Elyas
   picture: elyas.jpg
   url: 'http://elyas03.github.io/portfolio/'
-- name: Feiko
-  picture: feiko.jpg
-  url: 'http://feiko1.github.io/portfolio/'
+- name: Milou
+  picture: milou.jpg
+  url: 'http://milou121.github.io/portfolio/'
 - name: Felix
   picture: felix.jpg
   url: 'http://flehodey.github.io/portfolio/'
@@ -53,9 +53,9 @@
 - name: Michael
   picture: michael.jpg
   url: 'http://micky0806.github.io/portfolio/'
-- name: Milou
-  picture: milou.jpg
-  url: 'http://milou121.github.io/portfolio/'
+- name: Feiko
+  picture: feiko.jpg
+  url: 'http://feiko1.github.io/portfolio/'
 - name: Nadya
   picture: robot.jpg
   url: '#'
