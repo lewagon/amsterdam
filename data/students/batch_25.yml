@@ -7,9 +7,9 @@
 - name: Daemien
   picture: daemien.jpg
   url: 'http://dimmaaah.github.io/portfolio/'
-- name: Elio
-  picture: robot.jpg
-  url: 'http://eliobecool.github.io//portfolio/'
+- name: Walter
+  picture: walter.jpg
+  url: 'http://waltervanwoudenberg.github.io/portfolio/'
 - name: Elyas
   picture: elyas.jpg
   url: 'http://elyas03.github.io/portfolio/'
@@ -41,12 +41,12 @@
 - name: Jurjen
   picture: jurjen.jpg
   url: 'http://jurjenjm.github.io/portfolio/'
+- name: Ryan
+  picture: ryan.jpg
+  url: 'http://lrjbrual.github.io/portfolio-rj/'
 - name: Lonneke
   picture: lonneke.jpg
   url: '#'
-- name: Matthijs
-  picture: matthijs.jpg
-  url: 'http://nova-wintermute.github.io/portfolio/'
 - name: Merel
   picture: merel.jpg
   url: 'http://merelsteenbrink.github.io/portofolio/'
@@ -57,29 +57,29 @@
   picture: feiko.jpg
   url: 'http://feiko1.github.io/portfolio/'
 - name: Nadya
-  picture: robot.jpg
+  picture: nadya.jpg
   url: '#'
 - name: Natalia
   picture: natalia.jpg
   url: '#'
-- name: Ryan
-  picture: ryan.jpg
-  url: 'http://lrjbrual.github.io/portfolio-rj/'
+- name: Simone
+  picture: simone.jpg
+  url: 'http://simonedebest.github.io/portfolio/'
+- name: Matthijs
+  picture: matthijs.jpg
+  url: 'http://nova-wintermute.github.io/portfolio/'
 - name: Shannon
   picture: shannon.jpg
   url: 'http://www.lewagon.com/lisbon/'
-- name: Simone
-  picture: robot.jpg
-  url: 'http://simonedebest.github.io/portfolio/'
 - name: Umer
   picture: umer.jpg
   url: 'http://umersaqib160.github.io/portfolio/'
 - name: Vallentino
   picture: vallentino.jpg
   url: 'http://vallentino.github.io/profile/'
-- name: Walter
-  picture: walter.jpg
-  url: 'http://waltervanwoudenberg.github.io/portfolio/'
+- name: Elio
+  picture: elio.jpg
+  url: 'http://eliobecool.github.io//portfolio/'
 - name: Le Wagon Batch 25
   picture: lewagon.jpg
   fake: true
