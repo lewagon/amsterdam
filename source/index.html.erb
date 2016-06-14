@@ -1,20 +1,28 @@
 <div class='batches-container'>
-  <% data.batches.each do |batch| %>
-    <div class='batch-item-container'>
+  <% data.batches.each_with_index do |batch, index| %>
+    <div class='batch-item-container' id='batch-<%= batch.id %>'>
       <div class='batch-item'>
-        <div class='batch-item-thumb' style="background-image: linear-gradient(to left, rgba(44, 62, 80, 0.92), rgba(44, 62, 80, 0.9)), url('<%= image_path(batch.banner_url) %>)">
+        <div class='batch-item-thumb' style="background-image: linear-gradient(to left, <%= batch_gradient_color(index) %>), url('<%= image_path(batch.banner_url) %>)">
           <div class='batch-item-content'>
             <div>
               <div class='batch-item-content-title'>
-                Le<span class='middle-sep'></span>Wagon<span class='middle-sep'></span>Batch <span class='middle-sep'></span><%= batch.id %> <span class='end-sep'>¬</span>
+                Le <span class='middle-sep'></span> Wagon <span class='middle-sep'></span>
+                Batch <span class='middle-sep'></span> <%= batch.id %> <span class='end-sep'>¬</span>
               </div>
               <div class='batch-item-content-tagline'>
-                <span><%= eval("data.students.batch_#{batch.id}").size - 2 %> students</span> learn to <span>code & build</span> applications in Amsterdam during 12 weeks.
+                <span><%= batch.total %> students</span> learn to <span>code & build</span> applications in Amsterdam during 12 weeks.
               </div>
               <div class='batch-item-content-btn'>
                 <%= link_to 'Our students', "batches/#{batch.id}/" %>
-                <%= link_to 'Their projects', "http://alumni.lewagon.org/batches/#{batch.id}/", target: '_blank', class: 'is-outlined' %>
-                <%= link_to 'Le Wagon', "http://lewagon.com/amsterdam", target: '_blank', class: 'is-outlined' %>
+                <% if batch.projects %>
+                  <%= link_to 'Their projects', "http://alumni.lewagon.org/batches/#{batch.id}/", target: '_blank', class: 'is-outlined' %>
+                <% end %>
+                <% if batch.previous %>
+                  <a href="#batch-20" class="is-outlined">Previous batch</a>
+                <% end %>
+                <% if batch == data.batches.first %>
+                  <%= link_to 'Le Wagon', "http://lewagon.com/amsterdam", target: '_blank', class: 'is-outlined' %>
+                <% end %>
               </div>
             </div>
           </div>
